@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "979373910813",
+    "firebase_url": "https://prarrambh-4d763-default-rtdb.firebaseio.com",
+    "project_id": "prarrambh-4d763",
+    "storage_bucket": "prarrambh-4d763.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979373910813:android:d78790b0de917d59c10ff4",
+        "android_client_info": {
+          "package_name": "com.example.prarrambh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979373910813-bjb3penbui641rkgtrk26062ln389sd2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCus28na9R8ayQBwZd_E-z4iWIop34UIEs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979373910813-bjb3penbui641rkgtrk26062ln389sd2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/titlegradient"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="424dp"
+        android:layout_height="943dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="375dp"
+        android:layout_height="461dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="-18dp"
+        android:outlineSpotShadowColor="#03A9F4"
+        android:padding="10dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient"
+            android:padding="30dp">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="61dp"
+                android:fontFamily="@font/aclonica"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"
+                android:text="Login"
+                android:textAlignment="center"
+                android:textColor="#FF9800"
+                android:textSize="34sp" />
+
+            <EditText
+                android:id="@+id/s_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:textColor="#FF9800"
+                android:textColorHint="#57FF9800" />
+
+            <EditText
+                android:id="@+id/s_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/s_username"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="0dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#FF9800"
+                android:textColorHint="#57FF9800" />
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/s_password"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="74dp"
+                android:layout_marginTop="38dp"
+                android:layout_marginEnd="77dp"
+                android:backgroundTint="#0F92A3"
+                android:padding="10dp"
+                android:shadowColor="#FF9800"
+                android:shadowDx="10"
+                android:shadowDy="10"
+                android:shadowRadius="50"
+                android:text="Login"
+                android:textColor="#FF9800" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="169dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_btn"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="45dp"
+                android:layout_marginTop="20dp"
+                android:shadowColor="#151515"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"
+                android:text="Don't have an account?"
+                android:textColor="#FF9800"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/signupPage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/login_btn"
+                android:layout_marginTop="24dp"
+                android:layout_toEndOf="@+id/textView7"
+                android:shadowColor="#252424"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="10"
+                android:text="Sign Up"
+                android:textColor="#00BCD4"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

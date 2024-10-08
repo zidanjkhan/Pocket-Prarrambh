@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Prarrambh</string>
+    <string name="nav_open">Navigation Open</string>
+    <string name="nav_close">Navigation close</string>
+</resources>
